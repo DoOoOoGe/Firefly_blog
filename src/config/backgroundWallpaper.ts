@@ -149,7 +149,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 轮播切换间隔（毫秒）
 			interval: 5000,
 			// 过渡效果: 'fade' 渐变 | 'zoom' 缩放 | 'slide' 滑动 | 'kenburns' 旋转木马
-			transitionEffect: "kenburns",
+			transitionEffect: "zoom",
 			// 是否允许用户通过控制面板切换壁纸轮播
 			switchable: true,
 		},
@@ -172,11 +172,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 层级，确保壁纸在背景层
 		zIndex: -1,
 		// 壁纸透明度
-		opacity: 0.5,
+		opacity: 0.2,
 		// 背景模糊度
 		blur: 20,
 		// 卡片透明度，0-1之间，值越小越透明
-		cardOpacity: 0.5,
+		cardOpacity: 1,
 	},
 	// 全屏壁纸模式特有配置
 	fullscreen: {
